@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  bid: 1.5
+  size: 1.5
+  diet: MyString
+  description: MyText
+  duration: 
+
+two:
+  name: MyString
+  bid: 1.5
+  size: 1.5
+  diet: MyString
+  description: MyText
+  duration: 

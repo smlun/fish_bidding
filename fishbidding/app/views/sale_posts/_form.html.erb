@@ -1,0 +1,47 @@
+<%= form_for(sale_post) do |f| %>
+  <% if sale_post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(sale_post.errors.count, "error") %> prohibited this sale_post from being saved:</h2>
+
+      <ul>
+      <% sale_post.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :bid %>
+    <%= f.text_field :bid %>
+  </div>
+
+  <div class="field">
+    <%= f.label :size %>
+    <%= f.text_field :size %>
+  </div>
+
+  <div class="field">
+    <%= f.label :diet %>
+    <%= f.text_field :diet %>
+  </div>
+
+  <div class="field">
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+
+  <div class="field">
+    <%= f.label :duration %>
+    <%= f.text_field :duration %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

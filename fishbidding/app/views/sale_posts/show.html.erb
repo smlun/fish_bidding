@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @sale_post.name %>
+</p>
+
+<p>
+  <strong>Bid:</strong>
+  <%= @sale_post.bid %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @sale_post.size %>
+</p>
+
+<p>
+  <strong>Diet:</strong>
+  <%= @sale_post.diet %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @sale_post.description %>
+</p>
+
+<p>
+  <strong>Duration:</strong>
+  <%= @sale_post.duration %>
+</p>
+
+<%= link_to 'Edit', edit_sale_post_path(@sale_post) %> |
+<%= link_to 'Back', sale_posts_path %>
