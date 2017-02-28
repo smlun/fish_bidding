@@ -6,7 +6,7 @@ class CreateSalePosts < ActiveRecord::Migration[5.0]
       t.float :size
       t.string :diet
       t.text :description
-      t.int :duration
+      t.integer :duration
 
       t.timestamps
     end
