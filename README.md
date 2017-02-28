@@ -1,11 +1,8 @@
-# README
+# fish_bidding
+A simple project to build a website to allow fish keeping hobbyists to buy, sell, and bid.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+This Ruby on Rails Project is build using:
+* Ruby version 
 
 * System dependencies
 
